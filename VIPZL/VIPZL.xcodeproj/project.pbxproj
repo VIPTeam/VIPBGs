@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FA014FD16322FF2004A0CB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA014FC16322FF2004A0CB0 /* UIKit.framework */; };
+		0FA014FF16322FF2004A0CB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA014FE16322FF2004A0CB0 /* Foundation.framework */; };
+		0FA0150116322FF2004A0CB0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA0150016322FF2004A0CB0 /* CoreGraphics.framework */; };
+		0FA0150716322FF2004A0CB0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0FA0150516322FF2004A0CB0 /* InfoPlist.strings */; };
+		0FA0150916322FF2004A0CB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA0150816322FF2004A0CB0 /* main.m */; };
+		0FA0150D16322FF2004A0CB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA0150C16322FF2004A0CB0 /* AppDelegate.m */; };
+		0FA0151C16323375004A0CB0 /* VIPHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA0151A16323375004A0CB0 /* VIPHomeViewController.m */; };
+		0FA0151D16323375004A0CB0 /* VIPHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FA0151B16323375004A0CB0 /* VIPHomeViewController.xib */; };
+		0FA01520163235CC004A0CB0 /* Home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0FA0151F163235CC004A0CB0 /* Home.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FA014F816322FF2004A0CB0 /* VIPZL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPZL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FA014FC16322FF2004A0CB0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0FA014FE16322FF2004A0CB0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0FA0150016322FF2004A0CB0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0FA0150416322FF2004A0CB0 /* VIPZL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VIPZL-Info.plist"; sourceTree = "<group>"; };
+		0FA0150616322FF2004A0CB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0FA0150816322FF2004A0CB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0FA0150A16322FF2004A0CB0 /* VIPZL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VIPZL-Prefix.pch"; sourceTree = "<group>"; };
+		0FA0150B16322FF2004A0CB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0FA0150C16322FF2004A0CB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0FA0151916323375004A0CB0 /* VIPHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIPHomeViewController.h; sourceTree = "<group>"; };
+		0FA0151A16323375004A0CB0 /* VIPHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIPHomeViewController.m; sourceTree = "<group>"; };
+		0FA0151B16323375004A0CB0 /* VIPHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VIPHomeViewController.xib; sourceTree = "<group>"; };
+		0FA0151F163235CC004A0CB0 /* Home.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Home.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FA014F516322FF2004A0CB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA014FD16322FF2004A0CB0 /* UIKit.framework in Frameworks */,
+				0FA014FF16322FF2004A0CB0 /* Foundation.framework in Frameworks */,
+				0FA0150116322FF2004A0CB0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FA014ED16322FF2004A0CB0 = {
+			isa = PBXGroup;
+			children = (
+				0FA0151E16323577004A0CB0 /* ImageSourse */,
+				0FA0151316323126004A0CB0 /* ViewControllers */,
+				0FA0150216322FF2004A0CB0 /* VIPZL */,
+				0FA014FB16322FF2004A0CB0 /* Frameworks */,
+				0FA014F916322FF2004A0CB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FA014F916322FF2004A0CB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FA014F816322FF2004A0CB0 /* VIPZL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FA014FB16322FF2004A0CB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FA014FC16322FF2004A0CB0 /* UIKit.framework */,
+				0FA014FE16322FF2004A0CB0 /* Foundation.framework */,
+				0FA0150016322FF2004A0CB0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0FA0150216322FF2004A0CB0 /* VIPZL */ = {
+			isa = PBXGroup;
+			children = (
+				0FA0150B16322FF2004A0CB0 /* AppDelegate.h */,
+				0FA0150C16322FF2004A0CB0 /* AppDelegate.m */,
+				0FA0150316322FF2004A0CB0 /* Supporting Files */,
+			);
+			path = VIPZL;
+			sourceTree = "<group>";
+		};
+		0FA0150316322FF2004A0CB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FA0150416322FF2004A0CB0 /* VIPZL-Info.plist */,
+				0FA0150516322FF2004A0CB0 /* InfoPlist.strings */,
+				0FA0150816322FF2004A0CB0 /* main.m */,
+				0FA0150A16322FF2004A0CB0 /* VIPZL-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0FA0151316323126004A0CB0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0FA0151916323375004A0CB0 /* VIPHomeViewController.h */,
+				0FA0151A16323375004A0CB0 /* VIPHomeViewController.m */,
+				0FA0151B16323375004A0CB0 /* VIPHomeViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0FA0151E16323577004A0CB0 /* ImageSourse */ = {
+			isa = PBXGroup;
+			children = (
+				0FA0151F163235CC004A0CB0 /* Home.jpg */,
+			);
+			name = ImageSourse;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FA014F716322FF2004A0CB0 /* VIPZL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FA0151016322FF2004A0CB0 /* Build configuration list for PBXNativeTarget "VIPZL" */;
+			buildPhases = (
+				0FA014F416322FF2004A0CB0 /* Sources */,
+				0FA014F516322FF2004A0CB0 /* Frameworks */,
+				0FA014F616322FF2004A0CB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VIPZL;
+			productName = VIPZL;
+			productReference = 0FA014F816322FF2004A0CB0 /* VIPZL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FA014EF16322FF2004A0CB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0FA014F216322FF2004A0CB0 /* Build configuration list for PBXProject "VIPZL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0FA014ED16322FF2004A0CB0;
+			productRefGroup = 0FA014F916322FF2004A0CB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FA014F716322FF2004A0CB0 /* VIPZL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FA014F616322FF2004A0CB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA0150716322FF2004A0CB0 /* InfoPlist.strings in Resources */,
+				0FA0151D16323375004A0CB0 /* VIPHomeViewController.xib in Resources */,
+				0FA01520163235CC004A0CB0 /* Home.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FA014F416322FF2004A0CB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA0150916322FF2004A0CB0 /* main.m in Sources */,
+				0FA0150D16322FF2004A0CB0 /* AppDelegate.m in Sources */,
+				0FA0151C16323375004A0CB0 /* VIPHomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0FA0150516322FF2004A0CB0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FA0150616322FF2004A0CB0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0FA0150E16322FF2004A0CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0FA0150F16322FF2004A0CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FA0151116322FF2004A0CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VIPZL/VIPZL-Prefix.pch";
+				INFOPLIST_FILE = "VIPZL/VIPZL-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0FA0151216322FF2004A0CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VIPZL/VIPZL-Prefix.pch";
+				INFOPLIST_FILE = "VIPZL/VIPZL-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FA014F216322FF2004A0CB0 /* Build configuration list for PBXProject "VIPZL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FA0150E16322FF2004A0CB0 /* Debug */,
+				0FA0150F16322FF2004A0CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FA0151016322FF2004A0CB0 /* Build configuration list for PBXNativeTarget "VIPZL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FA0151116322FF2004A0CB0 /* Debug */,
+				0FA0151216322FF2004A0CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FA014EF16322FF2004A0CB0 /* Project object */;
+}
