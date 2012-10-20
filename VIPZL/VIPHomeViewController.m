@@ -55,7 +55,7 @@
     NSLog(@"推出职位查询界面");
 }
 - (IBAction)myZhilian:(id)sender {
-    NSLog(@"推出我的智联模块");
+    NSLog(@"推出我的智联界面");
 }
 
 - (IBAction)realTimeRecommend:(id)sender {
