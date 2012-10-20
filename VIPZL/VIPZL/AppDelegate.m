@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "VIPHomeViewController.h"
+#import "VIPLoginViewController.h"
 @implementation AppDelegate
 
 @synthesize window = _window;
@@ -23,8 +24,11 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     VIPHomeViewController *homeVC = [[VIPHomeViewController alloc] init];
-    self.window.rootViewController = homeVC;
+    UINavigationController *homeNV = [[UINavigationController alloc] initWithRootViewController:homeVC];
     [homeVC release];
+    
+    self.window.rootViewController = homeNV;
+    [homeNV release];
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

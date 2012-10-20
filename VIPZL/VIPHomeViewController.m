@@ -7,6 +7,9 @@
 //
 
 #import "VIPHomeViewController.h"
+#import "VIPLoginViewController.h"
+#import "VIPMyZhilianViewController.h"
+#import "IsLogin.h"
 
 @implementation VIPHomeViewController
 @synthesize myZhilian;
@@ -33,14 +36,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    //隐藏navgationcontroller
+    self.navigationController.navigationBarHidden = YES;
     // Do any additional setup after loading the view from its nib.
 }
 
 - (void)viewDidUnload
 {
     [self setMyZhilian:nil];
+    
+    
     [super viewDidUnload];
+    
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }
@@ -55,7 +62,24 @@
     NSLog(@"推出职位查询界面");
 }
 - (IBAction)myZhilian:(id)sender {
-    NSLog(@"推出我的智联界面");
+    
+    //创建IsLogin单例，用里面的属性判断是否已经登陆
+    IsLogin *islg = [IsLogin defaultIsLogin];
+    NSLog(@"uticket = %@",islg.uticket);
+    if (islg.isLogin == NO) {
+        NSLog(@"推出我的登陆界面");
+        VIPLoginViewController *login = [[VIPLoginViewController alloc] init];
+        [self.navigationController pushViewController:login animated:YES];
+        [login release];
+    }
+    else
+    {
+        NSLog(@"推出我的智联界面");
+        VIPMyZhilianViewController *myzlVC = [[VIPMyZhilianViewController alloc] init];
+        [self.navigationController pushViewController:myzlVC animated:YES];
+        [myzlVC release];
+    }
+    
 }
 
 - (IBAction)realTimeRecommend:(id)sender {
