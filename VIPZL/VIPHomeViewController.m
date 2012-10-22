@@ -11,7 +11,7 @@
 #import "VIPMyZhilianViewController.h"
 #import "VIPJobSearchViewController.h"
 #import "IsLogin.h"
-#import "VIPSalarySearchViewController.h"
+
 @implementation VIPHomeViewController
 @synthesize myZhilian;
 
@@ -36,7 +36,6 @@
 
 - (void)viewDidLoad
 {
-    
     [super viewDidLoad];
     //隐藏navgationcontroller
     self.navigationController.navigationBarHidden = YES;
@@ -92,14 +91,7 @@
 }
 
 - (IBAction)paymentSearch:(id)sender {
-    
     NSLog(@"推出薪酬查询界面");
-    VIPSalarySearchViewController *salaryController = [[VIPSalarySearchViewController alloc] init];
-    [self.navigationController pushViewController:salaryController animated:YES];
-    
-    
-    
-    
 }
 
 - (IBAction)jobSeekerGuide:(id)sender {
