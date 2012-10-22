@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F99D92A1633802400B18FB4 /* VIPJobSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F99D9281633802400B18FB4 /* VIPJobSearchViewController.m */; };
+		0F99D92B1633802400B18FB4 /* VIPJobSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F99D9291633802400B18FB4 /* VIPJobSearchViewController.xib */; };
+		0F99D9381633910400B18FB4 /* yyy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F99D9361633910400B18FB4 /* yyy.m */; };
+		0F99D9391633910400B18FB4 /* yyy.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F99D9371633910400B18FB4 /* yyy.xib */; };
+		0F99D98B1634077000B18FB4 /* SecOptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F99D98A1634077000B18FB4 /* SecOptionCell.m */; };
+		0F99D98D163408C700B18FB4 /* accessoryArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F99D98C163408C700B18FB4 /* accessoryArrow@2x.png */; };
+		0F99D9911634156D00B18FB4 /* VIPIndustryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F99D98F1634156D00B18FB4 /* VIPIndustryViewController.m */; };
+		0F99D9921634156D00B18FB4 /* VIPIndustryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F99D9901634156D00B18FB4 /* VIPIndustryViewController.xib */; };
 		0FA014FD16322FF2004A0CB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA014FC16322FF2004A0CB0 /* UIKit.framework */; };
 		0FA014FF16322FF2004A0CB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA014FE16322FF2004A0CB0 /* Foundation.framework */; };
 		0FA0150116322FF2004A0CB0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA0150016322FF2004A0CB0 /* CoreGraphics.framework */; };
@@ -41,6 +49,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F99D9271633802400B18FB4 /* VIPJobSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIPJobSearchViewController.h; sourceTree = "<group>"; };
+		0F99D9281633802400B18FB4 /* VIPJobSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIPJobSearchViewController.m; sourceTree = "<group>"; };
+		0F99D9291633802400B18FB4 /* VIPJobSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VIPJobSearchViewController.xib; sourceTree = "<group>"; };
+		0F99D9351633910400B18FB4 /* yyy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yyy.h; sourceTree = "<group>"; };
+		0F99D9361633910400B18FB4 /* yyy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yyy.m; sourceTree = "<group>"; };
+		0F99D9371633910400B18FB4 /* yyy.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = yyy.xib; sourceTree = "<group>"; };
+		0F99D9891634077000B18FB4 /* SecOptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecOptionCell.h; sourceTree = "<group>"; };
+		0F99D98A1634077000B18FB4 /* SecOptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecOptionCell.m; sourceTree = "<group>"; };
+		0F99D98C163408C700B18FB4 /* accessoryArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "accessoryArrow@2x.png"; sourceTree = "<group>"; };
+		0F99D98E1634156D00B18FB4 /* VIPIndustryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIPIndustryViewController.h; sourceTree = "<group>"; };
+		0F99D98F1634156D00B18FB4 /* VIPIndustryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIPIndustryViewController.m; sourceTree = "<group>"; };
+		0F99D9901634156D00B18FB4 /* VIPIndustryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VIPIndustryViewController.xib; sourceTree = "<group>"; };
 		0FA014F816322FF2004A0CB0 /* VIPZL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPZL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FA014FC16322FF2004A0CB0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0FA014FE16322FF2004A0CB0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -104,11 +124,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F99D9871634073300B18FB4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0F99D9891634077000B18FB4 /* SecOptionCell.h */,
+				0F99D98A1634077000B18FB4 /* SecOptionCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 		0FA014ED16322FF2004A0CB0 = {
 			isa = PBXGroup;
 			children = (
 				0FA0155416324E9A004A0CB0 /* libicucore.dylib */,
 				0FA0155216324E8B004A0CB0 /* libxml2.dylib */,
+				0F99D9871634073300B18FB4 /* Cells */,
 				0FA0154B16324E13004A0CB0 /* CommonSource */,
 				0FA0152916323FCC004A0CB0 /* AboutLogin */,
 				0FA0151E16323577004A0CB0 /* ImageSourse */,
@@ -176,6 +206,15 @@
 				0FA0157216326387004A0CB0 /* VIPRegisterViewController.h */,
 				0FA0157316326387004A0CB0 /* VIPRegisterViewController.m */,
 				0FA0157416326388004A0CB0 /* VIPRegisterViewController.xib */,
+				0F99D9271633802400B18FB4 /* VIPJobSearchViewController.h */,
+				0F99D9281633802400B18FB4 /* VIPJobSearchViewController.m */,
+				0F99D9291633802400B18FB4 /* VIPJobSearchViewController.xib */,
+				0F99D9351633910400B18FB4 /* yyy.h */,
+				0F99D9361633910400B18FB4 /* yyy.m */,
+				0F99D9371633910400B18FB4 /* yyy.xib */,
+				0F99D98E1634156D00B18FB4 /* VIPIndustryViewController.h */,
+				0F99D98F1634156D00B18FB4 /* VIPIndustryViewController.m */,
+				0F99D9901634156D00B18FB4 /* VIPIndustryViewController.xib */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -183,6 +222,7 @@
 		0FA0151E16323577004A0CB0 /* ImageSourse */ = {
 			isa = PBXGroup;
 			children = (
+				0F99D98C163408C700B18FB4 /* accessoryArrow@2x.png */,
 				0FA01577163264BA004A0CB0 /* registerBg@2x.png */,
 				0FA0157016325F2B004A0CB0 /* select_icon@2x.png */,
 				0FA0156E16325F14004A0CB0 /* unselect_icon@2x.png */,
@@ -283,6 +323,10 @@
 				0FA0157116325F2B004A0CB0 /* select_icon@2x.png in Resources */,
 				0FA0157616326388004A0CB0 /* VIPRegisterViewController.xib in Resources */,
 				0FA01578163264BA004A0CB0 /* registerBg@2x.png in Resources */,
+				0F99D92B1633802400B18FB4 /* VIPJobSearchViewController.xib in Resources */,
+				0F99D9391633910400B18FB4 /* yyy.xib in Resources */,
+				0F99D98D163408C700B18FB4 /* accessoryArrow@2x.png in Resources */,
+				0F99D9921634156D00B18FB4 /* VIPIndustryViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +349,10 @@
 				0FA015621632564F004A0CB0 /* Resume.m in Sources */,
 				0FA0156A16325EAE004A0CB0 /* VIPFindViewController.m in Sources */,
 				0FA0157516326388004A0CB0 /* VIPRegisterViewController.m in Sources */,
+				0F99D92A1633802400B18FB4 /* VIPJobSearchViewController.m in Sources */,
+				0F99D9381633910400B18FB4 /* yyy.m in Sources */,
+				0F99D98B1634077000B18FB4 /* SecOptionCell.m in Sources */,
+				0F99D9911634156D00B18FB4 /* VIPIndustryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
