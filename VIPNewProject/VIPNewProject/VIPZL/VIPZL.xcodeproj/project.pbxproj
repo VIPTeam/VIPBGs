@@ -18,6 +18,7 @@
 		0F0A11651634EF6A0003E32B /* XMLAnalysis.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0A11641634EF6A0003E32B /* XMLAnalysis.m */; };
 		0F0A11681634EF820003E32B /* basedata.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0F0A11671634EF820003E32B /* basedata.xml */; };
 		0F5A05A416326FD0003D216A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5A05A316326FD0003D216A /* QuartzCore.framework */; };
+		0F82E2241636293B00061B08 /* 444.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F82E2231636293B00061B08 /* 444.m */; };
 		0F9DE4711635026900C20619 /* VIPSelectedTableviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9DE46F1635026900C20619 /* VIPSelectedTableviewController.m */; };
 		0F9DE4721635026900C20619 /* VIPSelectedTableviewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F9DE4701635026900C20619 /* VIPSelectedTableviewController.xib */; };
 		0F9DE476163503BA00C20619 /* SaveDataSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9DE475163503BA00C20619 /* SaveDataSingleton.m */; };
@@ -168,6 +169,8 @@
 		0F5A059C16326ED2003D216A /* NSDecimalNumberExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDecimalNumberExtensions.h; sourceTree = "<group>"; };
 		0F5A059D16326ED2003D216A /* NSNumberExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSNumberExtensions.h; sourceTree = "<group>"; };
 		0F5A05A316326FD0003D216A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0F82E2221636293B00061B08 /* 444.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 444.h; sourceTree = "<group>"; };
+		0F82E2231636293B00061B08 /* 444.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 444.m; sourceTree = "<group>"; };
 		0F9DE46E1635026900C20619 /* VIPSelectedTableviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIPSelectedTableviewController.h; sourceTree = "<group>"; };
 		0F9DE46F1635026900C20619 /* VIPSelectedTableviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIPSelectedTableviewController.m; sourceTree = "<group>"; };
 		0F9DE4701635026900C20619 /* VIPSelectedTableviewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VIPSelectedTableviewController.xib; sourceTree = "<group>"; };
@@ -369,6 +372,8 @@
 		0FA014ED16322FF2004A0CB0 = {
 			isa = PBXGroup;
 			children = (
+				0F82E2221636293B00061B08 /* 444.h */,
+				0F82E2231636293B00061B08 /* 444.m */,
 				0F0A10DA1634E45B0003E32B /* IsLogin.h */,
 				0F0A10DB1634E45B0003E32B /* IsLogin.m */,
 				0F0A10DC1634E45B0003E32B /* LoginWithAccount.h */,
@@ -669,11 +674,8 @@
 				0FCC2638163414AB003A660F /* README-GHUnit in Resources */,
 				0F0A11401634ECB60003E32B /* VIPIndustryViewController.xib in Resources */,
 				0F0A11421634ECB60003E32B /* VIPJobSearchViewController.xib in Resources */,
-
 				0F0A11681634EF820003E32B /* basedata.xml in Resources */,
-
 				0F9DE4721635026900C20619 /* VIPSelectedTableviewController.xib in Resources */,
-
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -713,12 +715,10 @@
 				0F0A113E1634ECB60003E32B /* SecOptionCell.m in Sources */,
 				0F0A113F1634ECB60003E32B /* VIPIndustryViewController.m in Sources */,
 				0F0A11411634ECB60003E32B /* VIPJobSearchViewController.m in Sources */,
-
 				0F0A11651634EF6A0003E32B /* XMLAnalysis.m in Sources */,
-
 				0F9DE4711635026900C20619 /* VIPSelectedTableviewController.m in Sources */,
 				0F9DE476163503BA00C20619 /* SaveDataSingleton.m in Sources */,
-
+				0F82E2241636293B00061B08 /* 444.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
