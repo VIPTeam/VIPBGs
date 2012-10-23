@@ -24,6 +24,15 @@
 //test BY djy
 
 
+
+
+
+
+// 很好 
+
+
+
+
 #import <Foundation/Foundation.h>
 
 @interface IsLogin : NSObject
