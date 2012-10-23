@@ -23,6 +23,7 @@
 @interface IsLogin : NSObject
 
 {
+    //ddddddddd
     BOOL _isLogin;
 }
 @property(nonatomic,assign)BOOL isLogin;//是否已经登陆
